@@ -1,7 +1,7 @@
 import Realm from "realm";
 
 const ITEM_SCHEMA = {
-  name: "ReduxPersistItem",
+  name: "Item",
   primaryKey: "name",
   properties: {
     name: "string",
